@@ -39,7 +39,7 @@ def lambda_handler(event, context):
         num, rem = divmod(rem, coin)
         if num:
             if coin in coin_lookup:
-                res.append({num:coin_lookup[coin})
+                res.append({num:coin_lookup[coin]})
 
     # format the response as JSON and return the result
     response = {
